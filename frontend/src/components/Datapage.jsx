@@ -24,7 +24,7 @@ export default function Datapage ({data}) {
     }, [])
 
     const getUser = async () => {
-        const response = await fetch('http://127.0.0.1:8000/api/user-list/')
+        const response = await fetch('/api/user-list/')
         const data = await response.json()
         console.log(data)
         setTableData(data)
