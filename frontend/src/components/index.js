@@ -1,0 +1,1 @@
+export { default as Datapage } from '../components/Datapage'
